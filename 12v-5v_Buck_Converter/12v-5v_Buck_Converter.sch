@@ -251,7 +251,7 @@
 </library>
 <library name="Adam's Parts (work)" urn="urn:adsk.eagle:library:2283984">
 <packages>
-<package name="1210" urn="urn:adsk.eagle:footprint:37401/1" library_version="27" library_locally_modified="yes">
+<package name="1210" urn="urn:adsk.eagle:footprint:37401/1" locally_modified="yes" library_version="27" library_locally_modified="yes">
 <description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
 <wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
@@ -266,6 +266,10 @@
 <smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
 <text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-2.667" y1="1.397" x2="2.667" y2="1.397" width="0.127" layer="21"/>
+<wire x1="2.667" y1="1.397" x2="2.667" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="2.667" y1="-1.524" x2="-2.667" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="-2.667" y1="-1.524" x2="-2.667" y2="1.397" width="0.127" layer="21"/>
 </package>
 <package name="SOP-8E" urn="urn:adsk.eagle:footprint:30958/1" locally_modified="yes" library_version="27" library_locally_modified="yes">
 <description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt; SOP-8 (Exposed Pad)&lt;p&gt;</description>
@@ -329,6 +333,10 @@
 <rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="-2.413" y1="-1.143" x2="-2.413" y2="1.143" width="0.127" layer="21"/>
+<wire x1="-2.413" y1="1.143" x2="2.413" y2="1.143" width="0.127" layer="21"/>
+<wire x1="2.413" y1="1.143" x2="2.413" y2="-1.143" width="0.127" layer="21"/>
+<wire x1="2.413" y1="-1.143" x2="-2.413" y2="-1.143" width="0.127" layer="21"/>
 </package>
 <package name="H2-5.0-10.5X8.0MM" urn="urn:adsk.eagle:footprint:33071/1" library_version="27" library_locally_modified="yes">
 <wire x1="-4.064" y1="5.207" x2="4.064" y2="5.207" width="0.127" layer="21"/>
